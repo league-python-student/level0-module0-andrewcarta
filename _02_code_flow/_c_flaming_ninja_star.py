@@ -21,18 +21,18 @@ if __name__ == '__main__':
     flameSize = 130         # the length of the flaming arms
     
     # Make a new turtle
-    
+    squirtle=turtle
     # Make the turtle shape 'turtle', .shape('turtle')
-    
+    squirtle.shape(turtle)
     # Set the turtle width to 2
-    
+squirtle.width(2)
     # Set the turtle speed to 0 (fastest)
-    
+    squirtle.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-        
+        if i in range (1):
         # Set the turtle .fillcolor() to orange
-        
+        squirtle.fillcolor("orange")
         # Call the turtle .begin_fill() function
         
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees

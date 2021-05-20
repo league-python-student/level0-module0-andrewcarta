@@ -238,6 +238,6 @@ andrew.circle (100, 45, 8)
 andrew.color('violet','white')
 andrew.circle (100, 45, 8)
 andrew.color('white', 'black')
-andrew.write('awkword turtles make wierd babies')
+andrew.write('        awkword turtles make wierd babies')
 
 turtle.done()

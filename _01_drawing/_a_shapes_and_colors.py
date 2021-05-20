@@ -5,10 +5,10 @@ if __name__ == '__main__':
     window.bgcolor('white')
 
     # This code makes a new Turtle. Pick a new name for the turtle
-    my_turtle = turtle.Turtle()
+    andrew = turtle.Turtle()
 
     # Make your turtle's shape 'turtle', .shape('turtle')
-
+andrew.
     # Set your turtle's speed using .speed(2)
 
     # Set your turtle's color using .color('green') and .pencolor('blue')
