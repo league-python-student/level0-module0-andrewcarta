@@ -21,42 +21,42 @@ if __name__ == '__main__':
     flameSize = 130         # the length of the flaming arms
     
     # Make a new turtle
-    squirtle=turtle
+    squirtle=turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
-    squirtle.shape(turtle)
+    squirtle.shape('turtle')
     # Set the turtle width to 2
-squirtle.width(2)
+    squirtle.width(2)
     # Set the turtle speed to 0 (fastest)
     squirtle.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-        if i in range (1):
+    for i in range (250):
         # Set the turtle .fillcolor() to orange
-        squirtle.fillcolor("orange")
+        squirtle.fillcolor("red")
         # Call the turtle .begin_fill() function
-        
+        squirtle.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
         #                will turn a full circle)
-        
+        squirtle.right(48)
         # DRAW           Move the turtle 64 pixels
-        
+        squirtle.forward(64)
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #                numbers will turn the turtle counter-clockwise.)
-        
+        squirtle.left(40)
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
-        
+        squirtle.forward(130)
         #                Turn the turtle to the right 170 degrees
-         
+        squirtle.right(170)
         #                Move the turtle the distance in the variable flameSize (again)
-         
+        squirtle.forward(130)
         #  TURN RIGHT    Turn the turtle 62 degrees to the right
-        
+        squirtle.right(62)
         #  DRAW          Move the turtle the distance in the variable baseSize
-        
+        squirtle.forward(200)
         # Call the turtle .end_fill() method
-        
+        squirtle.end_fill()
     # Hide your turtle so you can see the pattern.
-        
+    squirtle.hideturtle()
     # TEST   Run the program. Check that your shape is the same as the first
     #        picture in the recipe. This is one arm of the ninja star.
 
